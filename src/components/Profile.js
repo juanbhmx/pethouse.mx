@@ -4,7 +4,7 @@ import PubPost from './PubPost'
 export default function ProfileUser() {
     return (
         <>
-            <div className="lg:container md:container xl:container h-screen mx-auto lg:my-2 md:my-2 xl:my-2">
+            <div className="lg:container md:container xl:container h-screen mx-auto lg:my-2 md:my-2 xl:my-2 mb-40">
                 <div className="md:flex no-wrap md:-mx-2 ">
                     <div className="w-full  md:w-3/12 md:mx-2">
                         <div className="dark:bg-slate-700 lg:rounded-lg md:rounded xl:rounded p-3">
@@ -79,7 +79,7 @@ export default function ProfileUser() {
                     {/* Right Side */}
                     <div className="sm:mt-2 md:mt-0 w-full md:w-9/12 h-64 static ">
 
-                        <div className="p-1 shadow-lg dark:bg-slate-700 lg:rounded-lg md:rounded-lg xl:rounded-lg">
+                        <div className="shadow-lg dark:bg-slate-700 lg:rounded-lg md:rounded-lg xl:rounded-lg">
                             <PubPost />
                             <ConfUser />
                         </div>

@@ -96,10 +96,9 @@ export default function FriendsProfile() {
 
             <div class="mx-auto text-center mx-2">
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-1 divide-y divide-gray-200 dark:divide-gray-700">
+                <div class="mb-40 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-1 gap-1 divide-y divide-gray-200 dark:divide-gray-700">
                     {Usuarios.map(({ id, name, mail }) => (
-                        <div class="relative overflow-hidden">
-                            {/* <li className="py-3 sm:py-1 cursor-pointer hover:bg-slate-600 hover:rounded-lg" key={id}> */}
+                        <div class="relative overflow-hidden bg-slate-700 shadow-lg rounded-lg p-1">
                             <div className="flex items-center space-x-4">
                                 <div className="flex-shrink-0">
                                     <img className="w-8 h-8 rounded-full" src="https://random.imagecdn.app/500/150" alt="Neil image" />
@@ -114,7 +113,6 @@ export default function FriendsProfile() {
                                 </div>
 
                             </div>
-                            {/* </li> */}
                         </div>
                     ))}
                 </div>
